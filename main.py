@@ -10,7 +10,7 @@ from sklearn.model_selection import train_test_split
 import matplotlib.pyplot as plt
 
 #Import sample dataset containing date, year, day of the week, day of the montn, holydays and sales (i.e. #loans sold)
-df = pd.read_csv('Daily_sales.csv',delimiter=';',index_col='date')
+df = pd.read_csv('MEP.csv',delimiter=';',index_col='CLIENTS')
 
 dates = df.index
 #Split targets and features
